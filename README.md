@@ -2,12 +2,14 @@
 16 Segment LED x 16  driven by TLC5940 and M5Stack/ESP32
 
 (1) configuration
+
 Dynamic display of 8 columns a TLC5940 driver, controlled by a 74HC595(Shift Register)
 The 17th segments(dots) are controlled by a 74HC595 and 8 resistors
 An M5Stack controls 2 TLC5940s for 16 columns of LED display modules
 Enable after-image effect by full PWM capability of TC5940
 
 (2) printed circuit boards
+
 BF-005B LED board
 Mount 2 LED display modules
 2 LEDs are able to mount instead of a LED display module
@@ -24,10 +26,12 @@ BF-002B terminater board
 To reduce reflection of GSCLK, SLCK, ..
 
 (3) tools
+
 "esp32gpio.xlsx" is to consider pin assignments
 "seg16font.xlsm" is to design font patterns
 
 (4) signals for TLC5940
+
 Reflesh rate: > 60Hz = 16.6ms
 Period per LED display = 2ms = 16ms / 8 columns
 GSCLK(gray-scale clock)
@@ -45,6 +49,7 @@ The lamp and thermal checks are indicated by an LED
 The detail information of error status is NOT treated.
 
 (5) others
+
 SmartConfig
 To configure SSID/PSK of Wifi, the SmartConfig is used
 The Wifi is used for NTP
