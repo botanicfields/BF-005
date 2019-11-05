@@ -10,7 +10,7 @@ Enable after-image effect by full PWM capability of TC5940.
 
 (2) printed circuit boards
 
-BF-005B LED board:
+BF-005 LED board:
 
 Mount 2 LED display modules.
 2 LEDs are able to mount instead of a LED display module.
@@ -19,14 +19,14 @@ No ICs are installed on the slave board.
 A dynamic display group of 8 LED display modules is consist of 1 master and 3 slave board.
 2 groups are connected for 16 columns of LED.
 
-BF-010B interface board:
+BF-010 interface board:
 
 Handle SS(slave select) of VSPI and convert 3.3V to 5V.
 LED indicater for XERR.
 LED power output(5-12V).
 Make logic power(5V).
 
-BF-002B terminater board:
+BF-002 terminater board:
 
 To reduce reflection of GSCLK, SLCK, ..
 
