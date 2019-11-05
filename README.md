@@ -1,6 +1,8 @@
 # BF-005
 16 Segment LED x 16  driven by TLC5940 and M5Stack/ESP32
 
+https://youtu.be/Hr57Gi8mDxo
+
 (1) configuration
 
 Dynamic display of 8 columns a TLC5940 driver, controlled by a 74HC595(Shift Register).
