@@ -96,7 +96,7 @@ void TLC5940_timer_init() {
                           NULL,           // Task input parameter
                           3,              // Priority of the task
                           NULL,           // Task handle.
-                          0);             // Core where the task should run
+                          1);             // Core where the task should run
 
   // start timer
   TLC5940_timer = timerBegin(TLC5940_TIMER_NUM, TLC5940_TIMER_DIV, true);  // increment mode
