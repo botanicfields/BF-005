@@ -3,6 +3,8 @@
 
 https://youtu.be/Hr57Gi8mDxo
 
+https://github.com/botanicfields/kicad
+
 (1) configuration
 
 Dynamic display of 8 columns a TLC5940 driver, controlled by a 74HC595(Shift Register).
